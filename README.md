@@ -53,7 +53,7 @@ feedback-app/
 
 ├── compose.yaml
 
-
+├── screenshots
 
 ## Features
 
@@ -89,9 +89,17 @@ Check running containers
 
 docker ps
 
-Open application
+## Accessing the Application 
+
+After deployment, open:
 
 http://localhost:8080
+
+## AWS Deployment
+
+The application was successfully deployed on AWS EC2 using Docker Compose.
+
+Deployment screenshots are included below.
 
 ## Docker Concepts Demonstrated
 
@@ -131,6 +139,39 @@ Through this project I learned:
 * HTTPS with SSL/TLS
 * Monitoring using Prometheus and Grafana
 * Kubernetes Deployment
+# Screenshots
+
+## Application UI
+
+![Application UI](screenshots/app-ui.jpg)
+
+## Backend API Output
+
+![Backend API Output](screenshots/API-Output.jpg)
+
+## MongoDB Data
+
+![MongoDB Data](screenshots/MongoDB-Data.jpg)
+
+## Docker Containers
+
+![Docker Containers](screenshots/docker-ps.jpg)
+
+## Docker Network
+
+![Docker Network](screenshots/docker-network.jpg)
+
+## Docker Volume
+
+![Docker Volume](screenshots/docker-volume.jpg)
+
+## AWS EC2 Instance
+
+![EC2 Instance](screenshots/ec2-instance.jpg)
+
+## Security Group Configuration
+
+![Security Group](screenshots/security-group.jpg)
 
 ## Author
 
